@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://claft3mqn8loj"]
+
+[ext_resource type="ArrayMesh" uid="uid://cgsaepiv76vdm" path="res://Assets/furniture/floorFull.obj" id="1_mehcf"]
+[ext_resource type="ArrayMesh" uid="uid://ckyc7e8v76fe0" path="res://Assets/furniture/floorHalf.obj" id="2_42sgc"]
+[ext_resource type="ArrayMesh" uid="uid://dyas4hf4nn3yc" path="res://Assets/furniture/floorCorner.obj" id="3_ai5wj"]
+
+[sub_resource type="MeshLibrary" id="MeshLibrary_1aaty"]
+item/0/name = "Floor_full"
+item/0/mesh = ExtResource("1_mehcf")
+item/0/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/mesh_cast_shadow = 1
+item/0/shapes = []
+item/0/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/navigation_layers = 1
+item/1/name = "Floor_half"
+item/1/mesh = ExtResource("2_42sgc")
+item/1/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/mesh_cast_shadow = 1
+item/1/shapes = []
+item/1/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/navigation_layers = 1
+item/2/name = "floor_corner"
+item/2/mesh = ExtResource("3_ai5wj")
+item/2/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/mesh_cast_shadow = 1
+item/2/shapes = []
+item/2/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/navigation_layers = 1
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_8slk5"]
+
+[node name="world" type="Node3D" unique_id=280582381]
+
+[node name="GridMap_floor" type="GridMap" parent="." unique_id=946295656]
+mesh_library = SubResource("MeshLibrary_1aaty")
+physics_material = SubResource("PhysicsMaterial_8slk5")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(65534, 65535, 0, 65535, 65535, 0, 65535, 65534, 0, 65534, 65534, 0, 65535, 0, 655360, 65534, 0, 0, 0, 0, 655360, 0, 65535, 655360, 0, 65534, 0, 65533, 1, 1048578, 65533, 2, 655360, 65534, 2, 655360, 0, 1, 655360, 1, 0, 655360, 1, 65535, 655360, 65535, 1, 655360, 65534, 1, 655360)
+}
