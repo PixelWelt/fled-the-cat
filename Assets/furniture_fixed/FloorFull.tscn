@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cpskkxx064q25"]
+
+[ext_resource type="ArrayMesh" uid="uid://cgsaepiv76vdm" path="res://Assets/furniture/floorFull.obj" id="1_d67cj"]
+
+[node name="FloorFullFixed" type="Node3D" unique_id=1554291380]
+
+[node name="FloorFull" type="MeshInstance3D" parent="." unique_id=783617783]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0, -0.5)
+mesh = ExtResource("1_d67cj")
