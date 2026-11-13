@@ -1,186 +1,206 @@
 # Fled the Cat – Game Design Document
 
-## 1. Projektübersicht
+## 1. Project Overview
 
-**Projektname:** Fled the Cat  
-**Genre:** Survival Puzzle auf Zeit  
-**Zielgruppe:** Casual Gamer, Tierliebhaber, Allergiker und Fans von Cute-/Meme-Kultur  
-**USK-Ziel:** USK 6 (angestrebt)
+**Project Name:** Fled the Cat  
+**Genre:** Timed Survival Puzzle  
+**Target Audience:** Casual gamers, animal lovers, allergy sufferers, and fans of cute aesthetics and meme culture  
+**Target Age Rating:** USK 6 (intended)
 
-### 1.1 Spielkonzept
+### 1.1 Game Concept
 
-Der Spieler übernimmt die Rolle eines Katzenallergikers, der versucht, in einem Haushalt voller Katzen zu überleben, gesuchte Dinge zu finden und us der Wohnung herauszukommen.
+The player takes on the role of a cat-allergic person trying to survive in a household full of cats, find specific items, and escape the apartment.
 
-Die Katzen sind dabei die Gegner. Durch ihre Nähe und den Kontakt mit Katzenhaaren wird die Allergie des Spielers zunehmend ausgelöst. Die daraus entstehenden Symptome gefährden seine Gesundheit und setzen ihn unter Zeitdruck.
+The cats are the main enemies. Their proximity and contact with cat hair trigger allergic reactions, gradually reducing the player's health and putting them under constant time pressure.
 
-Das Spiel kombiniert humorvolle Situationen mit Survival- und Puzzle-Elementen. Der Spieler muss Gegenstände finden, Hindernisse überwinden und möglichst schnell den Ausgang erreichen.
+The game combines humorous situations with survival and puzzle elements. Players must find items, overcome obstacles, avoid cats, and reach the exit as quickly as possible.
 
 ## 2. Unique Selling Points (USP)
 
-- **Allergie-Awareness mit Humor:** Eine überspitzte und humorvolle Darstellung des Alltags eines Katzenallergikers.
-- **Meme-Potenzial:** Absurde Situationen, witzige Animationen und übertriebene Reaktionen auf Katzen.
-- **Cute Art Style:** Niedliche Katzen und eine cartoonartige Spielwelt stehen im Kontrast zur lebensbedrohlichen Situation des Spielers.
-- **Challenge und Wettbewerb:** Highscores und Bestenlisten motivieren dazu, bessere Fluchtzeiten und Ergebnisse zu erreichen.
+- **Allergy Awareness with Humor:** An exaggerated and humorous representation of life as a cat-allergic person.
+- **Meme Potential:** Absurd situations, funny animations, and exaggerated reactions to cats.
+- **Cute Art Style:** Adorable cats and a cartoon-style world contrast with the player's increasingly desperate survival situation.
+- **Challenge and Competition:** High scores and leaderboards encourage players to improve their escape times and overall performance.
 
-## 3. Spielerfahrung und Perspektive
+## 3. Player Experience and Perspective
 
-Der Spieler erlebt die Spielwelt aus der Perspektive eines Katzenallergikers.
+The player experiences the game world from the perspective of a cat-allergic person.
 
-Das Szenario spielt in einer WG, Wohnung oder einem Haus, in dem sich mehrere Katzen aufhalten. Die Umgebung ist eine überspitzte, cartoonartige Darstellung eines realistischen Haushalts.
+The setting is a shared apartment or house inhabited by several cats. The environment is an exaggerated, cartoon-style representation of an everyday household.
 
-Die Spielerfahrung soll:
-- Humorvoll und unterhaltsam sein.
-- Durch Zeitdruck und begrenzte Gesundheit herausfordernd bleiben.
-- Durch versteckte Gegenstände und alternative Routen zum Erkunden motivieren.
-- Durch Scoreboards einen Wiederspielwert bieten.
+The intended player experience should be:
 
-**Perspektive:** Noch nicht final festgelegt. Third-Person ist eine mögliche Option.
+- Humorous and entertaining.
+- Challenging through time pressure and limited health.
+- Encouraging exploration through hidden items and alternative routes.
+- Providing replayability through scoreboards and high scores.
 
-## 4. Visueller und akustischer Stil
+**Perspective:** Not yet finalized. Third-person is one possible option.
 
-- Niedlicher, cartoonartiger Grafikstil.
-- Flüssige Animationen und Bewegungen.
-- Keine übermäßig detaillierte oder realistische Grafik.
-- Kontrast zwischen niedlicher Spielwelt und chaotischer Survival-Situation.
-- Verwendung der Kelly Assets.
-- Humorvolle Soundeffekte und passende Musik.
+## 4. Visual and Audio Style
 
-## 5. Spielwelt und Fiktion
+- Cute, cartoon-style graphics.
+- Smooth animations and movement.
+- No overly detailed or realistic graphics.
+- Contrast between the cute visual style and the chaotic survival situation.
+- Use of Kelly Assets.
+- Humorous sound effects and fitting background music.
 
-**Setting:** WG, Wohnung oder Haus.
+## 5. Game World and Fiction
 
-Die Spielwelt enthält:
-- Katzen als zentrale Gegner.
-- Typische Haushaltsgegenstände und Möbel.
-- Versteckte und sammelbare Gegenstände.
-- Verschiedene Räume und mögliche Fluchtrouten.
-- Easter Eggs und versteckte Katzenreferenzen.
+**Setting:** Shared apartment, flat, or house.
 
-Die Umgebung soll sowohl als Spielfläche als auch als Puzzle dienen.
+The game world contains:
+
+- Cats as the main enemies.
+- Typical household objects and furniture.
+- Hidden and collectible items.
+- Multiple rooms and possible escape routes.
+- Easter eggs and hidden cat references.
+
+The environment should function both as a playable space and as a puzzle.
+
+### 5.1 The Three Cats
+
+There are three distinct cat types, each with different characteristics and gameplay implications.
+
+| Cat | Characteristics | Gameplay Role |
+|---|---|---|
+| **Fled** | Fast-moving cat | Difficult to outrun and avoid due to its speed |
+| **Flat** | Hard to spot and good at hiding | Creates surprise encounters and requires careful exploration |
+| **Fat** | Slow-moving but large and heavy | Causes the highest allergic reaction and deals the most damage |
+
+Each cat type introduces a different kind of threat, requiring the player to adapt their movement and escape strategy.
 
 ## 6. Core Gameplay Loop
 
-Der grundlegende Spielablauf:
+The basic gameplay loop:
 
-1. Der Spieler startet in einem Haushalt voller Katzen.
-2. Er erkundet die Umgebung und sucht nach benötigten Gegenständen.
-3. Katzen und deren Nähe lösen allergische Reaktionen aus.
-4. Die Gesundheit des Spielers nimmt durch die Allergie zunehmend ab.
-5. Der Spieler muss Gegenstände einsetzen, Hindernisse überwinden und eine Fluchtroute finden.
-6. Ziel ist es, den Ausgang zu erreichen, bevor die Gesundheit vollständig aufgebraucht ist.
-7. Bei Tod folgt eine humorvolle Krankenhaus-/EpiPen-Animation.
-8. Anschließend startet ein neuer Run.
+1. The player starts in a household full of cats.
+2. They explore the environment and search for required items.
+3. Cats and their proximity trigger allergic reactions.
+4. The player's health gradually decreases due to allergic exposure.
+5. The player uses items, overcomes obstacles, and finds an escape route.
+6. The objective is to reach the exit before health is completely depleted.
+7. Upon death, a humorous hospital / EpiPen animation is triggered.
+8. The player starts a new run.
 
-**Wichtige Designentscheidung:** Es gibt zunächst keine Checkpoints. Jeder Run beginnt von vorne.
+**Key Design Decision:** There are no checkpoints initially. Every run starts from the beginning.
 
-## 7. Zielsetzung und Progression
+## 7. Objectives and Progression
 
-### 7.1 Kurzfristige Ziele
+### 7.1 Short-Term Goals
 
-- Am Leben bleiben und allergische Reaktionen vermeiden.
-- Katzen möglichst ausweichen.
-- Collectibles und benötigte Gegenstände finden.
-- Eine möglichst effiziente Route wählen.
-- Subziele erfüllen, um den Fluchtweg freizuschalten.
+- Stay alive and avoid allergic reactions.
+- Avoid cats whenever possible.
+- Find collectibles and required items.
+- Choose the most efficient escape route.
+- Complete sub-objectives to unlock the escape route.
 
-Beispiel: Der Spieler muss einen verlorenen Schlüssel finden, um eine Tür öffnen zu können. Der Spieler platziert Katzenfutter, um Katzen abzulenken und Zeit zu gewinnen.
+Example: The player must find a lost key to unlock a door. Cat food can be placed to distract cats and buy some time.
 
-### 7.2 Langfristiges Ziel
+### 7.2 Long-Term Goal
 
-Das übergeordnete Ziel ist es, den Ausgang zu erreichen und aus dem Haushalt zu entkommen.
+The overall objective is to reach the exit and escape the household.
 
-### 7.3 Wiederspielwert
+### 7.3 Replayability
 
-- Highscores und Bestenlisten.
-- Verbesserung der persönlichen Bestzeit.
-- Unterschiedliche Routen und mögliche Lösungswege.
-- Optionale Collectibles und Easter Eggs.
+- High scores and leaderboards.
+- Improving personal best escape times.
+- Different routes and possible solutions.
+- Optional collectibles and Easter eggs.
 
-## 8. Spielsysteme und Mechaniken
+## 8. Game Systems and Mechanics
 
-### 8.1 Bewegung
+### 8.1 Movement
 
-- Steuerung über WASD.
-- Schnelle und flüssige Bewegung.
-- Physikbasierte Interaktionen und humorvolle Bewegungsabläufe.
+- WASD controls.
+- Fast and responsive movement.
+- Physics-based interactions and humorous movement mechanics.
 
-### 8.2 Interaktion
+### 8.2 Interaction
 
-- Gegenstände werden durch Darüberlaufen automatisch aufgehoben.
-- Gegenstände können über Tastendrücke eingesetzt werden.
-- Weitere Interaktionen mit der Umgebung sind möglich.
+- Items are automatically picked up by walking over them.
+- Items can be used by pressing designated keys.
+- Additional interactions with the environment are possible.
 
-### 8.3 Gesundheit und Allergie
+### 8.3 Health and Allergies
 
-Die Gesundheit des Spielers wird durch die Katzenallergie beeinflusst.
+The player's health is affected by their cat allergy.
 
-Mögliche Mechaniken:
-- Nähe zu Katzen reduziert die Gesundheit.
-- Katzenhaare und andere allergieauslösende Objekte können zusätzliche Gefahren darstellen.
-- Die Stärke der allergischen Reaktion kann abhängig von Entfernung und Aufenthaltsdauer variieren.
-- Bei vollständig aufgebrauchter Gesundheit stirbt der Spieler und der Run endet.
+Potential mechanics:
 
-Die konkrete Umsetzung und Balance der Allergiemechanik ist noch festzulegen.
+- Proximity to cats reduces the player's health.
+- Cat hair and other allergen sources can introduce additional hazards.
+- The intensity of allergic reactions may depend on distance and exposure duration.
+- Different cat types cause different levels of allergic damage.
+- Fat causes the highest allergic reaction, while Fled and Flat introduce different challenges through their speed and hiding abilities.
+- When health reaches zero, the player dies and the run ends.
 
-### 8.4 Gegenstände und Collectibles
+The exact implementation and balancing of the allergy mechanics still need to be defined.
 
-Gegenstände erfüllen unterschiedliche Funktionen:
-- Schlüssel und Quest-Items zum Freischalten von Wegen.
-- Hilfsmittel zur Bewältigung von Gefahrensituationen.
-- Optionale Collectibles für zusätzliche Punkte.
+### 8.4 Items and Collectibles
 
-## 9. Technologie und Entwicklungsumgebung
+Items serve different purposes:
+
+- Keys and quest items to unlock paths.
+- Tools and consumables to handle dangerous situations.
+- Optional collectibles for additional points.
+- Cat food to distract cats and temporarily create opportunities to move past them.
+
+## 9. Technology and Development Environment
 
 **Game Engine:** Godot
 
-**Entwicklungswerkzeuge:**
+**Development Tools:**
 - Visual Studio Code
-- Git / GitHub (sofern verwendet)
+- Git / GitHub
 
-**Entwicklungsplattformen:**
+**Development Platforms:**
 - macOS
 - Ubuntu
 - Arch Linux
 
-## 10. Ideen und mögliche Erweiterungen
+## 10. Ideas and Potential Extensions
 
-Folgende Features sind denkbare Erweiterungen, gehören aber nicht zwingend zum initialen Spielumfang:
+The following features are possible extensions but are not necessarily part of the initial game scope:
 
-- Third-Person-Perspektive.
-- Multiplayer-Modus.
-- Weitere Level und Haushalte.
-- Unterschiedliche Katzen mit eigenen Verhaltensweisen.
-- Zusätzliche Allergiesymptome und Items.
-- Easter Eggs und versteckte Katzenreferenzen.
-- Erweiterte Bestenlisten und Statistiken.
+- Third-person perspective.
+- Multiplayer mode.
+- Additional levels and households.
+- More cat types with unique behaviors.
+- Additional allergy symptoms and items.
+- Easter eggs and hidden cat references.
+- Extended leaderboards and statistics.
 
-## 11. Ungelöste Fragen
+## 11. Open Questions
 
-Offene Designentscheidungen und technische Fragen werden hier gesammelt. Sobald eine Frage geklärt ist, wird sie in den Abschnitt „Gelöste Fragen“ verschoben und dort mit einer kurzen Erläuterung dokumentiert.
+Unresolved design decisions and technical questions are collected here. Once a question has been answered, it will be moved to the "Resolved Questions" section along with a short explanation of the decision.
 
-- Wie genau funktioniert die Allergiemechanik (Reichweite, Schaden, Intensität)?
-- Welche unterschiedlichen Verhaltensweisen haben die Katzen?
-- Wie viele Katzen und Räume umfasst ein Level?
-- Welche Gegenstände sind für die Flucht notwendig?
-- Wie wird das Scoreboard berechnet?
-- Welche Perspektive wird final verwendet?
-- Wie stark soll die Physikkomponente ausgeprägt sein?
+- How exactly should the allergy mechanics work (range, damage, intensity)?
+- What specific movement and behavior patterns should each cat have?
+- How many cats and rooms should each level contain?
+- Which items are required to escape?
+- How should the scoreboard be calculated?
+- Which perspective will be used in the final game?
+- How prominent should physics-based interactions be?
 
-## 12. Gelöste Fragen
+## 12. Resolved Questions
 
-Bisher getroffene Designentscheidungen:
+Design decisions made so far:
 
-- **Gegnerkonzept:** Katzen sind die Gegner. Ihre Nähe löst allergische Reaktionen aus und reduziert die Gesundheit des Spielers.
-- **Checkpoints:** Im initialen Konzept sind keine Checkpoints vorgesehen. Jeder Run beginnt nach einem Game Over von vorne.
+- **Enemy Concept:** Cats are the main enemies. Their proximity triggers allergic reactions and reduces the player's health.
+- **Cat Types:** Three distinct cats are planned: Fled (fast), Flat (hard to spot and hiding), and Fat (slow but causes the highest allergic damage).
+- **Checkpoints:** No checkpoints are planned for the initial version. Every run restarts after a Game Over.
 
-## 13. Aktueller Entwicklungsstatus
+## 13. Current Development Status
 
-Derzeit befindet sich das Projekt in der Konzeptions- und Planungsphase.
+The project is currently in the concept and planning phase.
 
-Die grundlegende Spielidee, das Genre und die zentralen Gameplay-Elemente sind definiert. Die konkrete Umsetzung der Spielmechaniken, insbesondere der Allergie- und Gegnermechanik, muss noch ausgearbeitet und prototypisch getestet werden.
+The core game idea, genre, and main gameplay elements have been defined. The specific implementation of the game mechanics, particularly the allergy and enemy systems, still needs to be developed and tested through prototyping.
 
-Der nächste Schritt ist die Entwicklung eines spielbaren Prototyps mit grundlegender Bewegung, Katzen als Gegnern und einer ersten Version des Gesundheitssystems.
+The next step is to build a playable prototype featuring basic movement, the three cat types, and an initial implementation of the health system.
 
 ## 14. Known Bugs
 
-Aktuell sind keine bekannten Bugs dokumentiert.
+No known bugs have been documented so far.
