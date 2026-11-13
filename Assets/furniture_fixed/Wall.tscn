@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://c065clijiedfh"]
+
+[ext_resource type="ArrayMesh" uid="uid://bgfrox3fvewkw" path="res://Assets/furniture/wall.obj" id="1_t3dvj"]
+
+[node name="Node3D" type="Node3D" unique_id=192245684]
+
+[node name="Wall" type="MeshInstance3D" parent="." unique_id=1993018252]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -0.5)
+mesh = ExtResource("1_t3dvj")
